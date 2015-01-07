@@ -1,0 +1,88 @@
+
+html, body {
+	height: 100%;
+	max-width: 100%;
+}
+
+.parent {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top {
+	height: 100px;
+	width: 25%;
+	float: left;
+	padding: 15px;
+}
+
+.red {
+	background: rgb(208, 2, 27);
+}
+
+.blue {
+	background: rgb(74, 144, 226);
+}
+
+.black {
+	background: rgb(74, 74, 74);
+
+}
+
+.text {
+	height: 100px;
+	width: 100%;
+}
+
+.parentTwo {
+	display: flex;
+/*	justify-content:*/
+	width: 100%;
+}
+
+
+.threeRed {
+	height: 200px;
+	width: 25%;
+	background: rgb(208, 2, 27);
+}
+
+.threeBlue {
+	height: 200px;
+	width: 75%;
+	background: rgb(74, 144, 226);
+}
+
+.parentThree {
+	display: flex;
+	margin: 5px;
+	height: 200px;
+	width: 100%;
+}
+
+.fourBlue {
+	height: 100%;
+	width: 75%;
+	background: rgb(74, 144, 226);
+}
+
+.fourRed {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 25%;
+	background: rgb(208, 2, 27);
+
+}
+.fourBlack {
+	height: 100%;
+	width: 80%;
+	background: rgb(74, 74, 74);
+
+
+}
+
+
+
+
+
