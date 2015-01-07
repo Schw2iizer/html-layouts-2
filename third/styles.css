@@ -1,0 +1,40 @@
+html, body {
+	height: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.header {
+	text-align: left;
+	height: 50px;
+	width: 890px;
+	background: rgb(38, 38, 38);
+}
+
+.brand {
+	float: left;
+	color: white;
+	display: inline-block;
+	padding: 15px;
+	font-family: sans-serif;
+}
+
+.paraBox{
+	display: flex;
+	width: 100%;
+}
+
+.para {
+/*	flex-shrink: 1;*/
+/*	display: flex;*/
+	flex-direction: column;
+	width: 100%;
+}
+
+
+.footer {
+	height: 50px;
+	width: 900px;
+	background: rgb(38, 38, 38);
+
+}
