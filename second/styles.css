@@ -1,0 +1,74 @@
+html, body {
+	height: 100%;
+	max-width: 900px;
+	background: rgb(216, 216, 216);
+}
+
+.parent {
+	margin: 5px;
+	height: 25%;
+	width: 100%;
+	background: white;
+	padding: 15px;
+
+}
+
+.text {
+	height: 150px;
+	width: 100%;
+
+}
+
+.red {
+	float: left;
+	display: inline-block;
+	background: rgb(208, 2, 27);
+	padding: 25px;
+	margin: 30px;
+}
+
+.blue {
+	float:left;
+	display: inline-block;
+	background: #4A90E2;
+	padding: 25px;
+	margin: 30px;
+}
+
+.parentTwo {
+	height: 60%;
+}
+
+
+.middle {
+/*	position: absolute;*/
+	height: 60%;
+	width: 104%;
+	background: white;
+}
+
+.image {
+	height: 110%;
+	width: 100%;
+	background: white;
+}
+
+.footer {
+	text-align: right;
+	height: 50px;
+	width: 104%;
+	background: rgb(51, 51, 51);
+	font-family: 'Arial';
+}
+
+.brand {
+	float; right;
+	color: white;
+	display: inline-block;
+	padding: 15px;
+}
+
+
+
+
+
